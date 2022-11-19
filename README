@@ -1,1 +1,18 @@
-hello world
+This is the Cloud Based Web applications part for the combined CA of CCT
+Author: Guilherme Teruaki CCT No 2022047
+
+To run this container:
+Open Docker desktop
+Open CMD
+run the command 
+using the CD command go to the dockerfile folder
+run: docker build -t myapp .
+After all dependencies are installed run the command:
+docker run -it --rm -p 8080:80 myapp
+
+With the image runing you can access the application using a web browser in the adress
+
+localhost:8080
+
+This work was base on class notes and the website:
+https://blog.knoldus.com/deployment-with-docker-in-ionic/
