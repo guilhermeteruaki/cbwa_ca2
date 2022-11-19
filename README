@@ -15,6 +15,23 @@ With the image runing you can access the application using a web browser in the 
 localhost:8080
 
 
+Where to Host a container
+
+Docker is a popular containerization tool in DevOps. It runs your application inside a container, uses minimum resources, can be deployed faster, and it can scale quickly. (geekflare).
+
+There are many industry options for hosting your containers online. For exemple Amazon ECS (Amazon Elastic COntainer Services), Google Kubernetes or even their own services Docker dotCloud. These industry giants are very reliable and they provide many features and support for the developer. They are great options for medium to larger applications.
+
+For our App we are considering 10-50 AMU (Active Monthly User) which is not a big amount.
+
+
+
+
+
+
 This work was base on class notes and the website:
 https://blog.knoldus.com/deployment-with-docker-in-ionic/
 https://sabe.io/tutorials/serve-static-files-nginx-docker#dockerfile
+
+research references
+https://geekflare.com/docker-hosting-platforms/
+https://digital.com/best-web-hosting/docker/
