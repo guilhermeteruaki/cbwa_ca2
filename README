@@ -14,5 +14,7 @@ With the image runing you can access the application using a web browser in the 
 
 localhost:8080
 
+
 This work was base on class notes and the website:
 https://blog.knoldus.com/deployment-with-docker-in-ionic/
+https://sabe.io/tutorials/serve-static-files-nginx-docker#dockerfile
